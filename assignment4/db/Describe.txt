@@ -1,0 +1,18 @@
+DB Assignment
+
+At first, I am a little confusing about how to save every record into a table. In my opinion,a table just need a ArrayList<Arraylist<String>>. It is easy to change every data, add new one or delete it.So I just write something described in asssignment file.
+
+Record class is a basic class. I did not change much in that class.
+
+Table class is more complexier than Record and it is also the most important class in this assignment.The old version not mention about the table name. And I also forget the key, new version add a function to check the key colum do not have same record. At the same time I write a function to change the key. When I write the Printing class and Database class ,I found I always the size of table and the length of record , so I add these function into Table class. At first, the constructor of table need a Record to build a table. I found it it difficult to use so I make some change for constructor.
+
+
+In Printing class, I found it is not easy to get every Record's data in table. So I built a Arraylist to save every data which i need to print.And I add a drawtitle function.The old version print many rows in on line, and I change the position of some codes.In this class I learnt may fuctions than java already have , it is so convient to use!
+
+At DBFile class , I searched some java function online. The old version I add Savetitle , Get tabledata function.
+
+The Database I forget to save the old version. I just write it and change and save it many times.Finally it works. The loadfile function is the most difficult to achieve I think.First you need to find these files, and you you should chang these text to Record and add them to Table. Because my Printing class need a table entity, so covert text to table is necessary.
+
+In Table class, I have a arrayList called title for saving the column name. Becase I want think it is useful for my table to remember the type (the extension task).But the time is not enough , I did not finish it.  T.T
+
+
